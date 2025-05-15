@@ -1,0 +1,50 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general font settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Under construction section styling */
+.under-construction {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+}
+
+/* Heading styles */
+.heading {
+    font-size: 36px;
+    font-weight: 500;
+    color: #f8b400;
+}
+
+/* Status message */
+.status {
+    font-size: 24px;
+    font-weight: 400;
+    color: #f44336;
+    margin-top: 10px;
+}
+
+/* Descriptive message */
+.message {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+}

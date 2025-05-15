@@ -1,0 +1,397 @@
+.hero-section {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 20s infinite linear;
+   
+
+}
+
+@keyframes slideshow {
+    0%, 100% { background-image: url('pictures/Ulwandle.jpeg'); }
+    33% { background-image: url('pictures/medicine4.jpg'); }
+    66% { background-image: url('pictures/NDAUWE__👏🏽👏🏽\ SANELE\ MATSOLO\ 2024🕯🕯.jpeg'); }
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+/* Overall section styling */
+.services-section {
+    background: url('background.jpg') no-repeat center center/cover;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+/* Service card styling */
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: #f0f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.icon-circle img {
+    width: 40px;
+}
+
+/* Read more styling */
+.read-more {
+    color: #f8b400; /* Change text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+.read-more:hover {
+    color: #d99400; /* Darker shade on hover */
+}
+/* serv-card */
+
+.card {
+    background: #000000;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 20px;
+}
+/* Service Card Styles */
+.service-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Service Icon */
+.service-icons-container {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.service-icon {
+    font-size: 2rem; /* Adjust icon size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    border-radius: 50%; /* Make it circular */
+    background-color: #f0f0f0; /* Light background */
+    margin: 0 auto 15px auto; /* Center align with margin */
+}
+
+/* Service Title */
+.service-card h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Service Description */
+.service-card p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Read More Button */
+.service-card .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.service-card .read-more:hover {
+    color: #0056b3;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Testimonials Section */
+.testimonials {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Testimonial Box */
+.testimonial-box {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-box:hover {
+    transform: scale(1.05);
+}
+
+/* Testimonial Image */
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #007bff;
+}
+
+/* Testimonial Name & Role */
+.testimonial-box h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.testimonial-role {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Testimonial Text */
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Star Ratings */
+.stars {
+    color: #ffc107;
+    font-size: 1rem;
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.map-frame {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+
+/* Contact Section */
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.contact-section ul li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Google Map */
+.map-section {
+    padding: 40px 0;
+}
+/* Hero Section */
+.contact-hero {
+    background: url('https://source.unsplash.com/1600x900/?medicine,healthcare') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Information Section -->*/
+.contact-card {
+    border-left: 5px solid #f8b400;
+    background: #ffffff;
+}
+
+/*about page*/
+/* Hero Section Styling */
+.contact-hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 30s infinite alternate;
+}
+
+
+/* Transparent Background with Blur Effect */
+.about-section {
+    position: relative;
+    background: url('pictures/Ulwandle.jpeg') no-repeat center center/cover;
+    padding: 80px 0;
+    color: white;
+}
+
+.about-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 10px;
+}
+
+/* Read More Button Styling */
+.btn-outline-light {
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background: #f8b400;
+    color: black;
+}
+
+
+
+/* Transparent Navbar */
+.navbar {
+    background: transparent;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #f8b400 !important; /* Custom hover color */
+}
+
+/* Change Navbar Background on Scroll */
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.8) !important;
+    
+
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background: url('https://source.unsplash.com/1600x900/?medical,doctor') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure Content is Visible */
+.hero-section h1,
+.hero-section h5,
+.hero-section p {
+    color: rgb(0, 0, 0);
+}
+
+.services-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.services-container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.doctor-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.service-item {
+    text-align: center;
+    padding: 20px;
+}
+.service-icon {
+    width: 50px;
+    margin-bottom: 10px;
+}

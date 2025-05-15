@@ -1,0 +1,11 @@
+.why-choose-us .card {
+    background-color: #fff; /* Set the card background to white */
+}
+
+.why-choose-us .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.1);
+    background-color: #f8f9fa; /* This will keep the light gray color on hover */
+}
+
